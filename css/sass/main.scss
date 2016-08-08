@@ -1,0 +1,184 @@
+/* GENERAL */
+*{
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	color: whitesmoke;
+}
+
+.container-fluid{
+	padding: 0;
+	margin: 0 auto;
+}
+
+.menu{
+	background-color: black;
+	opacity: 0.8;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: black;
+	width: 100%;
+}
+
+/* FIN GENERAL */
+
+.img-bg{
+	margin-top:-40px;
+}
+
+.circle{ 
+	.imagen{
+		margin-top: 80px;
+		margin-left: 30px;
+	}
+}
+
+.myself{
+	margin: 120px 50px 0 50px;
+}
+
+.if-img{
+	width: 150px;
+	height: 150px;
+ 	filter: grayscale(100%);
+ 	-webkit-filter: grayscale(100%);
+ 	margin: 0 auto;
+	margin: 5px;
+	:hover {  
+  	filter: grayscale(0%);
+ 		-webkit-filter: grayscale(0%);
+	}  
+}
+
+.loquesoy{
+	padding-bottom: 50px;
+}
+
+.ilikeit{
+	text-align: center;
+	.glyphicon{
+		font-size: 40px;
+		margin: 20px;
+		color: #A06BB9;
+		margin-top: 0;
+		padding: 0;
+		:hover {
+			color: white;
+			font-size: 60px;
+	  }
+	}
+}
+
+.btn{
+	font-size: 40px;
+}
+/* IMAGEN */
+.img-thumbnail{
+	margin-bottom: 20px;
+}
+
+/* CONOCIMIENTOS */
+.conocimientos{
+	img{
+		-webkit-transition: -webkit-transform .8s ease-in-out;
+		transition: transform .8s ease-in-out;
+		:hover{
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+}
+
+/* REDES SOCIALES */
+.caja-redes{
+  margin: 0 auto;
+  padding: 50px;
+  position: relative;
+	a {
+		text-align: center;
+		font-size: 24px;
+	}
+}
+.icon-button {
+	background-color: white;
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	height: 3em;
+	line-height: 3em;
+	margin: 0 8px;
+	position: relative;
+	width: 3em;
+	span {
+		border-radius: 0;
+		display: block;
+		height: 0;
+		left: 50%;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 0;
+	}
+}
+.icon-button:hover span {
+	width: 3em;
+	height: 3em;
+	border-radius: 3em;
+	margin: -1.5em;
+}
+.linkedin span {
+	background-color: #FAEA6B;
+}
+.twitter span {
+	background-color: #76BDEE;
+}
+.facebook span {
+	background-color: #142CBB;
+}
+.google-plus span {
+	background-color: #B52762;
+}
+/* Iconos */
+.icon-button i {
+	text-decoration: none;
+	background: none;
+	color: white;
+	left: 0;
+	line-height: 3em;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 3em;
+	z-index: 2;
+}
+.icon-button .icon-linkedin {
+	color: #FAEA6B;
+}
+.icon-button .icon-twitter {
+	color: #76BDEE;
+}
+.icon-button .icon-facebook {
+	color: #142CBB;
+}
+.icon-button .icon-google-plus {
+	color: #B52762;
+}
+.icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
+	color: white;
+}
