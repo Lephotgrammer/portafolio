@@ -2,7 +2,8 @@
 * {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
-  color: whitesmoke; }
+  color: whitesmoke;
+  margin: 0 auto; }
 
 .container-fluid {
   padding: 0;
@@ -23,6 +24,11 @@ body {
   background-color: black;
   width: 100%; }
 
+h5 {
+  text-align: center;
+  margin-top: -10px;
+  padding: 2px; }
+
 /* FIN GENERAL */
 .img-bg {
   margin-top: -40px; }
@@ -41,7 +47,7 @@ body {
   -webkit-filter: grayscale(100%);
   margin: 0 auto;
   margin: 5px; }
-  .if-img :hover {
+  .if-img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%); }
 
@@ -56,6 +62,9 @@ body {
     color: #A06BB9;
     margin-top: 0;
     padding: 0; }
+
+.title-img {
+  color: black; }
 
 .btn {
   font-size: 40px; }
@@ -153,10 +162,5 @@ body {
 
 .icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
   color: white; }
-
-h5 {
-  text-align: center;
-  margin-top: -10px;
-  padding: 2px; }
 
 /*# sourceMappingURL=main.css.map */
