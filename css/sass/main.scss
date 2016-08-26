@@ -29,6 +29,12 @@ body{
 	width: 100%;
 }
 
+h5 {
+	text-align: center;
+	margin-top: -10px;
+	padding: 2px;
+}
+
 /* FIN GENERAL */
 
 .img-bg{
@@ -177,9 +183,4 @@ body{
 }
 .icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
 	color: white;
-}
-h5 {
-	text-align: center;
-	margin-top: -10px;
-	padding: 2px;
 }
