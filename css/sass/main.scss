@@ -71,10 +71,6 @@ body{
 		color: #A06BB9;
 		margin-top: 0;
 		padding: 0;
-		:hover {
-			color: white;
-			font-size: 60px;
-	  }
 	}
 }
 
@@ -181,4 +177,9 @@ body{
 }
 .icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
 	color: white;
+}
+h5 {
+	text-align: center;
+	margin-top: -10px;
+	padding: 2px;
 }

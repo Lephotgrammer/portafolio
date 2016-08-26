@@ -2,46 +2,37 @@
 * {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
-  color: whitesmoke; 
-}
+  color: whitesmoke; }
 
 .container-fluid {
   padding: 0;
-  margin: 0 auto; 
-}
+  margin: 0 auto; }
 
 .menu {
   background-color: black;
-  opacity: 0.8; 
-}
+  opacity: 0.8; }
 
 li {
   list-style: none;
-  display: inline-block; 
-}
+  display: inline-block; }
 
 a {
-  text-decoration: none; 
-}
+  text-decoration: none; }
 
 body {
   background-color: black;
-  width: 100%; 
-}
+  width: 100%; }
 
 /* FIN GENERAL */
 .img-bg {
-  margin-top: -40px; 
-}
+  margin-top: -40px; }
 
 .circle .imagen {
   margin-top: 80px;
-  margin-left: 30px; 
-}
+  margin-left: 30px; }
 
 .myself {
-  margin: 120px 50px 0 50px; 
-}
+  margin: 120px 50px 0 50px; }
 
 .if-img {
   width: 150px;
@@ -49,63 +40,46 @@ body {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   margin: 0 auto;
-  margin: 5px; 
-}
-.if-img:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%); 
-}
+  margin: 5px; }
+  .if-img :hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); }
 
 .loquesoy {
-  padding-bottom: 50px; 
-}
+  padding-bottom: 50px; }
 
 .ilikeit {
-  text-align: center; 
-}
-.ilikeit .glyphicon {
-  font-size: 40px;
-  margin: 20px;
-  color: #A06BB9;
-  margin-top: 0;
-  padding: 0; 
-}
+  text-align: center; }
+  .ilikeit .glyphicon {
+    font-size: 40px;
+    margin: 20px;
+    color: #A06BB9;
+    margin-top: 0;
+    padding: 0; }
 
 .btn {
-  font-size: 40px; 
-}
+  font-size: 40px; }
 
 /* IMAGEN */
-.title-img {
-  color: black;
-}
 .img-thumbnail {
-  margin-bottom: 20px; 
-}
+  margin-bottom: 20px; }
 
 /* CONOCIMIENTOS */
-.conocimientos {
-  padding: 20px 0px;
-}
 .conocimientos img {
   -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out; 
-}
-.conocimientos img:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg); 
-}
+  transition: transform .8s ease-in-out; }
+  .conocimientos img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
 
 /* REDES SOCIALES */
 .caja-redes {
   margin: 0 auto;
   padding: 50px;
-  position: relative; 
-}
+  position: relative; }
   .caja-redes a {
     text-align: center;
-    font-size: 24px; 
-}
+    font-size: 24px; }
 
 .icon-button {
   background-color: white;
@@ -116,8 +90,7 @@ body {
   line-height: 3em;
   margin: 0 8px;
   position: relative;
-  width: 3em; 
-}
+  width: 3em; }
   .icon-button span {
     border-radius: 0;
     display: block;
@@ -130,31 +103,25 @@ body {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    width: 0; 
-  }
+    width: 0; }
 
 .icon-button:hover span {
   width: 3em;
   height: 3em;
   border-radius: 3em;
-  margin: -1.5em; 
-}
+  margin: -1.5em; }
 
 .linkedin span {
-  background-color: #FAEA6B; 
-}
+  background-color: #FAEA6B; }
 
 .twitter span {
-  background-color: #76BDEE; 
-}
+  background-color: #76BDEE; }
 
 .facebook span {
-  background-color: #142CBB; 
-}
+  background-color: #142CBB; }
 
 .google-plus span {
-  background-color: #B52762; 
-}
+  background-color: #B52762; }
 
 /* Iconos */
 .icon-button i {
@@ -170,26 +137,26 @@ body {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   width: 3em;
-  z-index: 2; 
-}
+  z-index: 2; }
 
 .icon-button .icon-linkedin {
-  color: #FAEA6B; 
-}
+  color: #FAEA6B; }
 
 .icon-button .icon-twitter {
-  color: #76BDEE; 
-}
+  color: #76BDEE; }
 
 .icon-button .icon-facebook {
-  color: #142CBB; 
-}
+  color: #142CBB; }
 
 .icon-button .icon-google-plus {
-  color: #B52762; 
-}
+  color: #B52762; }
 
 .icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
-  color: white; 
-}
+  color: white; }
 
+h5 {
+  text-align: center;
+  margin-top: -10px;
+  padding: 2px; }
+
+/*# sourceMappingURL=main.css.map */
