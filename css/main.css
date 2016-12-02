@@ -9,10 +9,15 @@
   padding: 0;
   margin: 0 auto; }
 
+.col-md-12, .row {
+  padding: 0;
+  margin: 0; }
+
 .menu {
   background-color: black;
   opacity: 0.8; }
 
+x
 li {
   list-style: none;
   display: inline-block; }
@@ -24,21 +29,25 @@ body {
   background-color: black;
   width: 100%; }
 
+/*
 h5 {
-  text-align: center;
-  margin-top: -10px;
-  padding: 2px; }
-
+	text-align: center;
+	margin-top: -10px;
+	padding: 2px;
+}
+*/
 /* FIN GENERAL */
 .img-bg {
   margin-top: -40px; }
 
 .circle .imagen {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-left: 30px; }
 
 .myself {
-  margin: 120px 50px 0 50px; }
+  margin: 80px 50px 0 50px; }
+  .myself p {
+    display: inline-block; }
 
 .if-img {
   width: 150px;
@@ -54,14 +63,16 @@ h5 {
 .loquesoy {
   padding-bottom: 50px; }
 
-.ilikeit {
-  text-align: center; }
-  .ilikeit .glyphicon {
-    font-size: 40px;
-    margin: 20px;
-    color: #A06BB9;
-    margin-top: 0;
-    padding: 0; }
+.ilikeit li {
+  display: inline-block; }
+.ilikeit .glyphicon {
+  font-size: 40px;
+  margin: 20px;
+  color: #A06BB9;
+  margin-top: 0;
+  padding: 0; }
+  .ilikeit .glyphicon:hover {
+    color: #673569; }
 
 .title-img {
   color: black; }
@@ -74,6 +85,9 @@ h5 {
   margin-bottom: 20px; }
 
 /* CONOCIMIENTOS */
+.conocimientos li {
+  display: inline-block;
+  text-align: center; }
 .conocimientos img {
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out; }
@@ -157,10 +171,17 @@ h5 {
 .icon-button .icon-facebook {
   color: #142CBB; }
 
-.icon-button .icon-google-plus {
+.icon-button .glyphicon-phone {
   color: #B52762; }
 
-.icon-button:hover .icon-linkedin, .icon-button:hover .icon-pinterest, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-google-plus {
+.icon-button:hover .icon-linkedin, .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .glyphicon-phone {
   color: white; }
+
+.desarrollado-por h5 {
+  text-align: center;
+  font-family: Arial;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: -10px; }
 
 /*# sourceMappingURL=main.css.map */
